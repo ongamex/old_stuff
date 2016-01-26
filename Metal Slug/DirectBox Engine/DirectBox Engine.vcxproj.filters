@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Application Code">
+      <UniqueIdentifier>{1a04e2c5-528d-4900-97d1-8e82f8ebb865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application Code\Game Files">
+      <UniqueIdentifier>{823a34ef-f66f-43f3-ba1d-f12190b663d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Technologies">
+      <UniqueIdentifier>{71908df2-3d86-49e8-8cc3-1f55d9ad876d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Technologies\ini">
+      <UniqueIdentifier>{4c56440f-b7a7-4983-9edb-a08a9cf3eef5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Technologies\dbox">
+      <UniqueIdentifier>{339f217e-9b58-4147-baea-9a4d3a173df1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{e942937d-b17b-465d-b1ca-f13377e0d6cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Code\Blackbox.cpp">
+      <Filter>Application Code\Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\linker.cpp">
+      <Filter>Application Code\Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Main.cpp">
+      <Filter>Application Code\Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\ini\IniReader.cpp">
+      <Filter>Technologies\ini</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\ini\IniWriter.cpp">
+      <Filter>Technologies\ini</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\GameInit.cpp">
+      <Filter>Application Code\Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\GameMainMenu.cpp">
+      <Filter>Application Code\Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\GObject.cpp">
+      <Filter>Application Code\Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\GameLogic.cpp">
+      <Filter>Application Code\Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\GObjectExplosions.cpp">
+      <Filter>Application Code\Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\GObjectMisc.cpp">
+      <Filter>Application Code\Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\GObjectEnemy1.cpp">
+      <Filter>Application Code\Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\GObjectBackGndANDBullets.cpp">
+      <Filter>Application Code\Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\DBOX3D.cpp">
+      <Filter>Technologies\dbox</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\DBOXApp.cpp">
+      <Filter>Technologies\dbox</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\DBOXCameraBase.cpp">
+      <Filter>Technologies\dbox</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\DBOXCameraFP.cpp">
+      <Filter>Technologies\dbox</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\DBOXCameraTP.cpp">
+      <Filter>Technologies\dbox</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\DBOXFont.cpp">
+      <Filter>Technologies\dbox</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\DBOXInput.cpp">
+      <Filter>Technologies\dbox</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\DBOXMath.cpp">
+      <Filter>Technologies\dbox</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\DBOXUI.cpp">
+      <Filter>Technologies\dbox</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\GObjectEnemySniper.cpp">
+      <Filter>Application Code\Game Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Code\blackbox.h">
+      <Filter>Application Code\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\ini\IniReader.h">
+      <Filter>Technologies\ini</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\ini\IniWriter.h">
+      <Filter>Technologies\ini</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\GameInit.h">
+      <Filter>Application Code\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\GameMainMenu.h">
+      <Filter>Application Code\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\GObject.h">
+      <Filter>Application Code\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\GameLogic.h">
+      <Filter>Application Code\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\ObjectDefines.h">
+      <Filter>Application Code\Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\DBOX3D.h">
+      <Filter>Technologies\dbox</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\DBOXApp.h">
+      <Filter>Technologies\dbox</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\DBOXCameraBase.h">
+      <Filter>Technologies\dbox</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\DBOXCameraFP.h">
+      <Filter>Technologies\dbox</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\DBOXCameraTP.h">
+      <Filter>Technologies\dbox</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\DBOXCore.h">
+      <Filter>Technologies\dbox</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\DBOXFont.h">
+      <Filter>Technologies\dbox</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\DBOXInput.h">
+      <Filter>Technologies\dbox</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\DBOXMath.h">
+      <Filter>Technologies\dbox</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\DBOXUI.h">
+      <Filter>Technologies\ini</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Metal Slug Project1.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="game_icon.ico" />
+    <None Include="config.ini">
+      <Filter>Application Code\Game Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

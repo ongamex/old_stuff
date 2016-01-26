@@ -1,0 +1,32 @@
+﻿Build started 8/28/2010 12:19:34.
+Project "C:\Projects\Metal Slug\Technologies\Technologies.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Touching "Release\Technologies.unsuccessfulbuild".
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "..\DirectBox Engine\Code\DBOX3D.cpp" "..\DirectBox Engine\Code\DBOXCameraBase.cpp" "..\DirectBox Engine\Code\DBOXCameraFP.cpp" "..\DirectBox Engine\Code\DBOXCameraTP.cpp" "..\DirectBox Engine\Code\DBOXFont.cpp" "..\DirectBox Engine\Code\DBOXInput.cpp" "..\DirectBox Engine\Code\DBOXMath.cpp" "..\DirectBox Engine\Code\DBOXUI.cpp"
+  DBOX3D.cpp
+  DBOXCameraBase.cpp
+  DBOXCameraFP.cpp
+  DBOXCameraTP.cpp
+  DBOXFont.cpp
+  DBOXInput.cpp
+  DBOXMath.cpp
+  DBOXUI.cpp
+Link:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Projects\Metal Slug\Release\Technologies.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Technologies.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Projects\Metal Slug\Release\Technologies.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Projects\Metal Slug\Release\Technologies.lib" /MACHINE:X86 Release\DBOX3D.obj
+  Release\DBOXApp.obj
+  Release\DBOXCameraBase.obj
+  Release\DBOXCameraFP.obj
+  Release\DBOXCameraTP.obj
+  Release\DBOXFont.obj
+  Release\DBOXInput.obj
+  Release\DBOXMath.obj
+  Release\DBOXUI.obj
+  Release\IniReader.obj
+  Release\IniWriter.obj
+LINK : fatal error LNK1561: entry point must be defined
+Done Building Project "C:\Projects\Metal Slug\Technologies\Technologies.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:09.36

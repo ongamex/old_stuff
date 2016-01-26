@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Application files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Others">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Engine files\ini">
+      <UniqueIdentifier>{0a0c7fde-c04d-4e99-abdc-5b13148bdd31}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d3dResourceManager.cpp">
+      <Filter>Engine files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOX2D.cpp">
+      <Filter>Engine files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOX3D.cpp">
+      <Filter>Engine files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOXApp.cpp">
+      <Filter>Engine files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOXCameraBase.cpp">
+      <Filter>Engine files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOXCameraFP.cpp">
+      <Filter>Engine files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOXCameraTP.cpp">
+      <Filter>Engine files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOXFont.cpp">
+      <Filter>Engine files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOXInput.cpp">
+      <Filter>Engine files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOXMath.cpp">
+      <Filter>Engine files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOXUserInterface.cpp">
+      <Filter>Engine files</Filter>
+    </ClCompile>
+    <ClCompile Include="linker-DBOX.cpp">
+      <Filter>Engine files</Filter>
+    </ClCompile>
+    <ClCompile Include="OBB3D.cpp">
+      <Filter>Engine files</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Application files</Filter>
+    </ClCompile>
+    <ClCompile Include="app-linker.cpp">
+      <Filter>Application files</Filter>
+    </ClCompile>
+    <ClCompile Include="IniReader.cpp">
+      <Filter>Engine files\ini</Filter>
+    </ClCompile>
+    <ClCompile Include="IniWriter.cpp">
+      <Filter>Engine files\ini</Filter>
+    </ClCompile>
+    <ClCompile Include="Blackbox.cpp">
+      <Filter>Application files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSate.cpp">
+      <Filter>Application files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enitity.cpp">
+      <Filter>Application files</Filter>
+    </ClCompile>
+    <ClCompile Include="Particles.cpp">
+      <Filter>Application files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="d3dResourceManager.h">
+      <Filter>Engine files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOX2D.h">
+      <Filter>Engine files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOX3D.h">
+      <Filter>Engine files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOXApp.h">
+      <Filter>Engine files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOXCameraBase.h">
+      <Filter>Engine files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOXCameraFP.h">
+      <Filter>Engine files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOXCameraTP.h">
+      <Filter>Engine files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOXCore.h">
+      <Filter>Engine files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOXFont.h">
+      <Filter>Engine files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOXInput.h">
+      <Filter>Engine files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOXMath.h">
+      <Filter>Engine files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOXUserInterface.h">
+      <Filter>Engine files</Filter>
+    </ClInclude>
+    <ClInclude Include="OBB3D.h">
+      <Filter>Engine files</Filter>
+    </ClInclude>
+    <ClInclude Include="Blackbox.h">
+      <Filter>Application files</Filter>
+    </ClInclude>
+    <ClInclude Include="IniReader.h">
+      <Filter>Engine files\ini</Filter>
+    </ClInclude>
+    <ClInclude Include="IniWriter.h">
+      <Filter>Engine files\ini</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config.ini" />
+  </ItemGroup>
+</Project>

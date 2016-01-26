@@ -1,0 +1,80 @@
+﻿Build started 20-Mar-12 01:39:51.
+     1>Project "D:\Projects\Projects\ImpossibleGamePC\ImpossibleGamePC\ImpossibleGamePC.vcxproj" on node 2 (Build target(s)).
+     1>PrepareForBuild:
+         Creating directory "D:\Projects\Projects\ImpossibleGamePC\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\ImpossibleGamePC.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "app-linker.cpp" Application.cpp Blackbox.cpp d3dResourceManager.cpp DBOX2D.cpp DBOX3D.cpp DBOXApp.cpp DBOXCameraBase.cpp DBOXCameraFP.cpp DBOXCameraTP.cpp DBOXFont.cpp DBOXInput.cpp DBOXMath.cpp DBOXUserInterface.cpp Enitity.cpp GameSate.cpp IniReader.cpp IniWriter.cpp "linker-DBOX.cpp" OBB3D.cpp Particles.cpp
+         Particles.cpp
+     1>d:\projects\projects\impossiblegamepc\impossiblegamepc\blackbox.h(7): fatal error C1083: Cannot open include file: 'irrKlang.h': No such file or directory
+         OBB3D.cpp
+     1>d:\projects\projects\impossiblegamepc\impossiblegamepc\obb3d.h(8): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+         linker-DBOX.cpp
+         IniWriter.cpp
+     1>d:\projects\projects\impossiblegamepc\impossiblegamepc\iniwriter.cpp(5): warning C4083: expected ')'; found identifier 'C4996'
+     1>d:\projects\projects\impossiblegamepc\impossiblegamepc\iniwriter.cpp(15): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\projects\projects\impossiblegamepc\impossiblegamepc\iniwriter.cpp(16): error C2664: 'WritePrivateProfileStringW' : cannot convert parameter 1 from 'char *' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\projects\projects\impossiblegamepc\impossiblegamepc\iniwriter.cpp(22): error C2664: 'WritePrivateProfileStringW' : cannot convert parameter 1 from 'char *' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\projects\projects\impossiblegamepc\impossiblegamepc\iniwriter.cpp(28): error C2664: 'WritePrivateProfileStringW' : cannot convert parameter 1 from 'char *' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\projects\projects\impossiblegamepc\impossiblegamepc\iniwriter.cpp(32): error C2664: 'WritePrivateProfileStringW' : cannot convert parameter 1 from 'char *' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         IniReader.cpp
+     1>d:\projects\projects\impossiblegamepc\impossiblegamepc\inireader.cpp(14): error C2664: 'GetPrivateProfileIntW' : cannot convert parameter 1 from 'char *' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\projects\projects\impossiblegamepc\impossiblegamepc\inireader.cpp(23): error C2664: 'GetPrivateProfileStringW' : cannot convert parameter 1 from 'char *' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\projects\projects\impossiblegamepc\impossiblegamepc\inireader.cpp(33): error C2664: 'GetPrivateProfileStringW' : cannot convert parameter 1 from 'char *' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\projects\projects\impossiblegamepc\impossiblegamepc\inireader.cpp(43): error C2664: 'GetPrivateProfileStringW' : cannot convert parameter 1 from 'char *' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         GameSate.cpp
+     1>d:\projects\projects\impossiblegamepc\impossiblegamepc\blackbox.h(7): fatal error C1083: Cannot open include file: 'irrKlang.h': No such file or directory
+         Enitity.cpp
+     1>d:\projects\projects\impossiblegamepc\impossiblegamepc\blackbox.h(7): fatal error C1083: Cannot open include file: 'irrKlang.h': No such file or directory
+         DBOXUserInterface.cpp
+     1>d:\projects\projects\impossiblegamepc\impossiblegamepc\dbox3d.h(5): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+         DBOXMath.cpp
+     1>d:\projects\projects\impossiblegamepc\impossiblegamepc\dboxmath.h(5): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+         DBOXInput.cpp
+     1>d:\projects\projects\impossiblegamepc\impossiblegamepc\dboxinput.h(9): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+         DBOXFont.cpp
+     1>d:\projects\projects\impossiblegamepc\impossiblegamepc\dboxfont.h(5): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+         DBOXCameraTP.cpp
+     1>d:\projects\projects\impossiblegamepc\impossiblegamepc\dboxcameratp.h(5): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+         DBOXCameraFP.cpp
+     1>d:\projects\projects\impossiblegamepc\impossiblegamepc\dboxcamerafp.h(5): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+         DBOXCameraBase.cpp
+     1>d:\projects\projects\impossiblegamepc\impossiblegamepc\dboxcamerabase.h(5): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+         DBOXApp.cpp
+     1>d:\projects\projects\impossiblegamepc\impossiblegamepc\dboxapp.cpp(43): error C2440: 'initializing' : cannot convert from 'char *' to 'TCHAR *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\projects\projects\impossiblegamepc\impossiblegamepc\dboxapp.cpp(47): error C2440: '=' : cannot convert from 'const char [12]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\projects\projects\impossiblegamepc\impossiblegamepc\dboxapp.cpp(65): error C2664: 'CreateWindowExW' : cannot convert parameter 2 from 'const char [12]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\projects\projects\impossiblegamepc\impossiblegamepc\dboxapp.cpp(108): error C2664: 'UnregisterClassW' : cannot convert parameter 1 from 'const char [12]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         DBOX3D.cpp
+     1>d:\projects\projects\impossiblegamepc\impossiblegamepc\dbox3d.h(5): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+         DBOX2D.cpp
+     1>d:\projects\projects\impossiblegamepc\impossiblegamepc\dbox3d.h(5): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+         d3dResourceManager.cpp
+     1>d:\projects\projects\impossiblegamepc\impossiblegamepc\d3dresourcemanager.h(5): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+         Blackbox.cpp
+     1>d:\projects\projects\impossiblegamepc\impossiblegamepc\blackbox.h(7): fatal error C1083: Cannot open include file: 'irrKlang.h': No such file or directory
+         Application.cpp
+     1>d:\projects\projects\impossiblegamepc\impossiblegamepc\blackbox.h(7): fatal error C1083: Cannot open include file: 'irrKlang.h': No such file or directory
+         Generating Code...
+         Compiling...
+         app-linker.cpp
+         Generating Code...
+     1>Done Building Project "D:\Projects\Projects\ImpossibleGamePC\ImpossibleGamePC\ImpossibleGamePC.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:20.01

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{bd78f7e5-8e15-4517-8689-d634022ce529}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DBOX2D.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOX3D.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOXApp.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOXFont.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOXInput.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOXMath.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOXTimer.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="linker-DBOX.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ArmoredShell.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackBox.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="IniReader.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="IniWriter.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderThread.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicThread.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationManager.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DBOX2D.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOX3D.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOXApp.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOXCore.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOXFont.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOXInput.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOXMath.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOXTimer.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackBox.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="IniReader.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="IniWriter.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationManager.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

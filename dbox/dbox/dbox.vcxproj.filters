@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="dbox">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{68b08bc3-cbaa-4acb-a5b5-5f4a6d3bcc56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBB">
+      <UniqueIdentifier>{2e734d71-52c0-4c28-b37c-b340cb719421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="x">
+      <UniqueIdentifier>{febb4469-c9b6-4c2d-a39c-3df2ee27d7a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DBOX2D.cpp">
+      <Filter>dbox</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOX3D.cpp">
+      <Filter>dbox</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOXFont.cpp">
+      <Filter>dbox</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOXInput.cpp">
+      <Filter>dbox</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOXMath.cpp">
+      <Filter>dbox</Filter>
+    </ClCompile>
+    <ClCompile Include="linker-DBOX.cpp">
+      <Filter>dbox</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="app-linker.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="OBB3D.cpp">
+      <Filter>OBB</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOXUserInterface.cpp">
+      <Filter>dbox</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOXApp.cpp">
+      <Filter>dbox</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOXTimer.cpp">
+      <Filter>dbox</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOXCamera.cpp">
+      <Filter>dbox</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshAllocation.cpp">
+      <Filter>x</Filter>
+    </ClCompile>
+    <ClCompile Include="XEnitity.cpp">
+      <Filter>x</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DBOX2D.h">
+      <Filter>dbox</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOX3D.h">
+      <Filter>dbox</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOXCore.h">
+      <Filter>dbox</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOXFont.h">
+      <Filter>dbox</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOXInput.h">
+      <Filter>dbox</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOXMath.h">
+      <Filter>dbox</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOXUserInterface.h">
+      <Filter>dbox</Filter>
+    </ClInclude>
+    <ClInclude Include="OBB3D.h">
+      <Filter>OBB</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOXApp.h">
+      <Filter>dbox</Filter>
+    </ClInclude>
+    <ClInclude Include="application.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOXTimer.h">
+      <Filter>dbox</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOXCamera.h">
+      <Filter>dbox</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshAllocation.h">
+      <Filter>x</Filter>
+    </ClInclude>
+    <ClInclude Include="XEnitity.h">
+      <Filter>x</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

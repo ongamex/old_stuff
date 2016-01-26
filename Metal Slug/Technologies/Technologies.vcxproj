@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1B20EB20-3156-4C1C-94A7-F26E379835CE}</ProjectGuid>
+    <RootNamespace>Technologies</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>C:\SDK\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>C:\SDK\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\DirectBox Engine\Code\DBOX3D.cpp" />
+    <ClCompile Include="..\DirectBox Engine\Code\DBOXApp.cpp" />
+    <ClCompile Include="..\DirectBox Engine\Code\DBOXCameraBase.cpp" />
+    <ClCompile Include="..\DirectBox Engine\Code\DBOXCameraFP.cpp" />
+    <ClCompile Include="..\DirectBox Engine\Code\DBOXCameraTP.cpp" />
+    <ClCompile Include="..\DirectBox Engine\Code\DBOXFont.cpp" />
+    <ClCompile Include="..\DirectBox Engine\Code\DBOXInput.cpp" />
+    <ClCompile Include="..\DirectBox Engine\Code\DBOXMath.cpp" />
+    <ClCompile Include="..\DirectBox Engine\Code\DBOXUI.cpp" />
+    <ClCompile Include="..\DirectBox Engine\Code\ini\IniReader.cpp" />
+    <ClCompile Include="..\DirectBox Engine\Code\ini\IniWriter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\DirectBox Engine\Code\DBOX3D.h" />
+    <ClInclude Include="..\DirectBox Engine\Code\DBOXApp.h" />
+    <ClInclude Include="..\DirectBox Engine\Code\DBOXCameraBase.h" />
+    <ClInclude Include="..\DirectBox Engine\Code\DBOXCameraFP.h" />
+    <ClInclude Include="..\DirectBox Engine\Code\DBOXCameraTP.h" />
+    <ClInclude Include="..\DirectBox Engine\Code\DBOXCore.h" />
+    <ClInclude Include="..\DirectBox Engine\Code\DBOXFont.h" />
+    <ClInclude Include="..\DirectBox Engine\Code\DBOXInput.h" />
+    <ClInclude Include="..\DirectBox Engine\Code\DBOXMath.h" />
+    <ClInclude Include="..\DirectBox Engine\Code\DBOXUI.h" />
+    <ClInclude Include="..\DirectBox Engine\Code\ini\IniReader.h" />
+    <ClInclude Include="..\DirectBox Engine\Code\ini\IniWriter.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

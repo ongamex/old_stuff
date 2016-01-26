@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Application Code">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Engine Code">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="app-linker.cpp">
+      <Filter>Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dResourceManager.cpp">
+      <Filter>Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOX2D.cpp">
+      <Filter>Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOX3D.cpp">
+      <Filter>Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOXApp.cpp">
+      <Filter>Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOXCamera.cpp">
+      <Filter>Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOXFont.cpp">
+      <Filter>Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOXInput.cpp">
+      <Filter>Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOXMath.cpp">
+      <Filter>Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOXTimer.cpp">
+      <Filter>Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOXUserInterface.cpp">
+      <Filter>Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="linker-DBOX.cpp">
+      <Filter>Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshAllocation.cpp">
+      <Filter>Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="OBB3D.cpp">
+      <Filter>Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="XEnitity.cpp">
+      <Filter>Engine Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D.cpp">
+      <Filter>Application Code</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Application Code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="d3dResourceManager.h">
+      <Filter>Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOX2D.h">
+      <Filter>Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOX3D.h">
+      <Filter>Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOXApp.h">
+      <Filter>Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOXCamera.h">
+      <Filter>Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOXCore.h">
+      <Filter>Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOXFont.h">
+      <Filter>Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOXInput.h">
+      <Filter>Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOXMath.h">
+      <Filter>Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOXTimer.h">
+      <Filter>Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="DBOXUserInterface.h">
+      <Filter>Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshAllocation.h">
+      <Filter>Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="OBB3D.h">
+      <Filter>Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="XEnitity.h">
+      <Filter>Engine Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D.h">
+      <Filter>Application Code</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEnitity.h">
+      <Filter>Application Code</Filter>
+    </ClInclude>
+    <ClInclude Include="BackBox.h">
+      <Filter>Application Code</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

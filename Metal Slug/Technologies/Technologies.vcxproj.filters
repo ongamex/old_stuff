@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Technologies">
+      <UniqueIdentifier>{1447f00f-ccf9-4816-882d-4b461695f0b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Technologies\_DBOX Files">
+      <UniqueIdentifier>{64c7f0f7-ac0a-4bae-8771-feed2d5b55db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Technologies\ini">
+      <UniqueIdentifier>{4b9ec256-cc0c-4a4a-9b6c-14b0cddf7fe8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\DirectBox Engine\Code\DBOX3D.cpp">
+      <Filter>Technologies\_DBOX Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DirectBox Engine\Code\DBOXApp.cpp">
+      <Filter>Technologies\_DBOX Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DirectBox Engine\Code\DBOXCameraBase.cpp">
+      <Filter>Technologies\_DBOX Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DirectBox Engine\Code\DBOXCameraFP.cpp">
+      <Filter>Technologies\_DBOX Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DirectBox Engine\Code\DBOXCameraTP.cpp">
+      <Filter>Technologies\_DBOX Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DirectBox Engine\Code\DBOXFont.cpp">
+      <Filter>Technologies\_DBOX Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DirectBox Engine\Code\DBOXInput.cpp">
+      <Filter>Technologies\_DBOX Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DirectBox Engine\Code\DBOXMath.cpp">
+      <Filter>Technologies\_DBOX Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DirectBox Engine\Code\DBOXUI.cpp">
+      <Filter>Technologies\_DBOX Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DirectBox Engine\Code\ini\IniReader.cpp">
+      <Filter>Technologies\ini</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DirectBox Engine\Code\ini\IniWriter.cpp">
+      <Filter>Technologies\ini</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\DirectBox Engine\Code\DBOX3D.h">
+      <Filter>Technologies\_DBOX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DirectBox Engine\Code\DBOXApp.h">
+      <Filter>Technologies\_DBOX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DirectBox Engine\Code\DBOXCameraBase.h">
+      <Filter>Technologies\_DBOX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DirectBox Engine\Code\DBOXCameraFP.h">
+      <Filter>Technologies\_DBOX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DirectBox Engine\Code\DBOXCameraTP.h">
+      <Filter>Technologies\_DBOX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DirectBox Engine\Code\DBOXCore.h">
+      <Filter>Technologies\_DBOX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DirectBox Engine\Code\DBOXFont.h">
+      <Filter>Technologies\_DBOX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DirectBox Engine\Code\DBOXInput.h">
+      <Filter>Technologies\_DBOX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DirectBox Engine\Code\DBOXMath.h">
+      <Filter>Technologies\_DBOX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DirectBox Engine\Code\DBOXUI.h">
+      <Filter>Technologies\_DBOX Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DirectBox Engine\Code\ini\IniReader.h">
+      <Filter>Technologies\ini</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DirectBox Engine\Code\ini\IniWriter.h">
+      <Filter>Technologies\ini</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
